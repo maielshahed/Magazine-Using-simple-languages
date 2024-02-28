@@ -1,0 +1,482 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+ .news
+{
+    background-color: #522D5B;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.news h1
+{
+    color: #ffffff;
+    font-size: 50px;
+    transition:all .5s ease-in-out;
+    transition-delay: .5s;
+
+}
+.news span
+{
+    color: #d7385e;
+    font-size: 30px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: #d7385e;
+    z-index: 2;
+   
+}
+
+.nav_links
+{
+    display: inline-block;
+    padding: 0 20px;
+    display: flex;
+    transition:all .5s ease-in-out;
+    transition-delay: .5s;
+    z-index: 2;
+
+}
+header h2
+{
+font-size: 30px;
+color: #ffffff;
+text-transform: capitalize;
+}
+header span
+{
+    color: #522D5B;
+}
+
+
+.nav_links li
+{
+    padding-right: 50px;
+   
+}
+.nav_links  a
+{
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 20px;
+
+}
+
+
+.nav_links ul li a
+{
+    display:block;
+    color: #ffffff;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+text-transform: capitalize;
+padding: 30px 30px;
+
+
+}
+header  ul ul
+{
+    display: block;
+    background-color: #d7385e;
+    margin-top: 30px;
+
+}
+.nav_links li a:hover
+{
+    
+    background-color: #fb7b6b;
+    padding: 34px;
+}
+.nav_links > li
+{
+    float: left;
+
+}
+
+.nav_links li
+{
+    display: block;
+}
+.nav_links li ul
+{
+    display: none;
+    position: absolute;
+    max-width: 250px;
+}
+.nav_links li:hover > ul
+{
+    display: block;
+}
+.nav_links li ul li
+{
+    position: relative;
+
+}
+
+.nav_links li ul li ul
+{
+    left: -140px;
+    top: 0;
+}
+header .cta
+{
+    margin-right: 40px;
+
+}
+header .cta button
+{
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 500px;
+    background-color: #522D5B;
+    border: 0;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+.latest 
+{
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.latest h2{
+    color: rgb(24, 24, 24);
+    font-size: 30px;
+    padding-bottom: 30px;
+    float: left;
+    border-bottom:3px solid #522D5B;
+    margin: 0;
+    transition: all .7s ease-in-out;
+
+
+}
+
+.latest ul
+{ display: flex;
+    float: right;
+    margin-right: 450px;
+
+}
+.latest ul li a
+{
+  padding: 5px 5px 5px 5px;
+
+    font-size: 20px;
+    display: block;
+    color: rgb(97, 97, 97);
+
+}
+
+.latest li a:hover
+{
+    color: #ffffff;
+
+}
+
+
+.latest li:hover:nth-child(1)
+{
+    background-color: #522D5B;
+
+  
+}
+.latest li:hover:nth-child(2)
+{
+    background-color: #d7385e;
+ 
+}
+.latest li:hover:nth-child(3)
+{
+    background-color: #fb7b6b;
+ 
+}
+.latest .big
+{
+    width: 70%;
+    float: left;
+    transition: all .7s ease-in-out;
+    transition-delay: 1s;
+
+}
+
+.latest .nws
+{
+    width: 50%;
+    float: left;
+}
+.latest .nws a img
+{
+    width: 100%;
+    height: 250px;
+    padding-top: 20px;
+    float: left;
+    margin-bottom: 20px;
+}
+.latest .nws a h3
+{width: 100%;
+    color: #2c2c2c;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+.latest .nws a h3:hover
+{
+    color: #d7385e;
+}
+
+.latest .nws p
+{
+    width: 100%;
+    font-size: 20px;
+    color: #707070;
+   
+}
+.latest  .lin
+{float: right;
+    width: 35%;
+    margin-bottom: 30px;
+   
+} 
+.latest  .lin img
+{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right:20px ;
+}
+
+.latest  .lin a h3
+{
+    color: #2c2c2c;
+    font-size: 20px;
+}
+.latest  .lin a h3:hover
+{color: #d7385e;}
+
+
+.latest  .ser
+{
+    float: right;
+    width: 25%;
+}
+.latest  .ser h3
+{
+    color: #2c2c2c;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.latest  .ser img
+{
+    width: 100%;
+    height: 300px;
+}
+.Death
+{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #ffffff;
+
+}
+.Death .de
+{
+    float: left;
+    width: 70%;
+
+}
+
+.Death .de .ath
+{
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+
+}
+.Death .de .ath img
+{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.Death .de .ath a h3
+{
+    width: 100%;
+    color: #2c2c2c;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+.Death .de .ath a h3:hover
+{
+    color: #d7385e;
+}
+
+
+.Death .de .ath p
+{
+    width: 100%;
+    font-size: 20px;
+    color: #707070;
+    padding-bottom: 60px;
+}
+.Death .de .ath .we
+{
+    margin-bottom: 60px;
+}
+.Death .de .ath .we img
+{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 20px;
+}
+.Death  .cont
+{
+    float: left;
+    width: 30%;
+
+}
+    
+    .Death .cont img
+    {
+        width: 100%;
+    }
+
+
+    .Death .cont h3
+    {
+        font-size: 30px;
+        color: #2c2c2c;
+        padding-bottom: 30px;
+    }
+
+.feat
+{
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+.feat h2
+{
+    font-size: 30px;
+    color: #2c2c2c;
+    padding-bottom: 30px;
+    padding-left: 85px;
+}
+
+.feat .poper
+{
+    width: 30.3333%;
+    float: left;
+    margin-right: 30px;
+}
+.feat .poper .sing
+{
+    position: relative;
+    overflow: hidden;
+}
+.feat .poper .sing .fotr
+{
+    width: 100%;
+    height: 300px;
+    transition: all .5s ease-in ;
+}
+.feat .poper .tex a
+{
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.feat .poper .tex a:hover
+{
+    color: #707070;
+}
+
+.feat .poper .sing:hover .fotr
+{
+    transform: scale(1.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
